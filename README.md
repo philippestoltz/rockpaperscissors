@@ -1,9 +1,9 @@
 # rockpaperscissors
-test for job interview
+test for job interview (using Scala)
 
-User Story Front
-+--------------------------------------------------+
-|                                                  |
+
+|User Story Front                                  |
+|--------------------------------------------------|
 |     Title: Waste an Hour Having Fun              |
 |                                                  |
 | As a frequent games player,                      |
@@ -15,11 +15,10 @@ User Story Front
 |  - Can I play Computer vs Computer?              |
 |  - Can I play a different game each time?        |
 |                                                  |
-|                                                  |
-+--------------------------------------------------+
+
  
-User Story Back
-+--------------------------------------------------+
+|User Story Back                                   |
+|--------------------------------------------------|
 |                                                  |
 |                                                  |
 |                                                  |
@@ -35,7 +34,7 @@ User Story Back
 |                                                  |
 |                                                  |
 |                                                  |
-+--------------------------------------------------+
+
 Don't know the game? http://en.wikipedia.org/wiki/Rock-paper-scissors
 
 Guidance
@@ -51,3 +50,9 @@ Run / build instructions are seen in a positive light, as it indicates you know 
 We also consider the extensibility of the code produced. Well factored code should be relatively easily extended. http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock may be a natural extension.
 Submissions should be in the language of the role you applied for.
 Any indicator of design (DDD, or design patterns) would make us smile.
+
+-----------------------------------------------------
+
+Use the SBT (https://www.scala-sbt.org/download.html) commands : 
+"sbt run" to run the program
+"sbt test" to run the tests
